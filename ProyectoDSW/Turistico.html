@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Aqui se pueden observar los links de archivos css y librearias que usamos de páginas exteriores -->
+
+    <link rel="stylesheet" href="./css/turistico.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@200&family=Nosifer&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Lugares Turisticos</title>
+</head>
+
+    <!-- Aqui se pueden obervar los estilos locales -->
+
+<style>
+    p{
+        font-family: 'Montserrat', sans-serif;
+    }
+    h2,h3{
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+</style>
+<body>
+
+    <!-- En esta sección abarca el header y menu principal de la página -->
+
+    <header class="header">
+        <div class="menu contenedor">
+            <a href="index.html"><img src="./img/logo.png" class="logo" /></a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="./img/menu.png" class="menu-icono" alt="">
+            </label>
+
+            <!-- Menu principal -->
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Historia.html">Historia</a></li>
+                    <li><a href="Turistico.html">Lugares Turisticos</a></li>
+                    <li><a href="Platillos.html">Platillos Tipicos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Registro.php">Registro</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content contenedor">
+            <h1>Lugares Turisticos</h1>
+            <p>Michoacán, un estado lleno de belleza natural y riqueza cultural, es un destino turístico fascinante. Entre sus lugares más emblemáticos se encuentra Morelia, su capital, con su majestuoso centro histórico declarado Patrimonio de la Humanidad por la UNESCO, famoso por su catedral y arquitectura colonial. Pátzcuaro, con su lago y la Isla de Janitzio, ofrece una experiencia cultural única, especialmente durante la celebración del Día de Muertos. Las Mariposas Monarca atraen a visitantes a los santuarios de la Reserva de la Biósfera, donde millones de mariposas migran anualmente. Además, Uruapan, hogar del Parque Nacional Barranca del Cupatitzio,
+            es conocido por sus impresionantes cascadas y exuberante vegetación. Michoacán, con su combinación de historia, tradición y naturaleza, es un destino imperdible..</p>
+            <a href="" class="btn-1">Información</a>
+        </div>
+    </header>
+
+    <!-- En esta sección abarca el contenido principal de la página -->
+
+    <main class="lugares contenedor">
+
+        <!-- La clase lugar indica un cuadro que se muestra en html -->
+
+        <div class="lugar">
+            <img src="./img/iglesia.svg" />
+            <h3>Morelia</h3>
+            <p>Es la capital del estado, reconocida por su arquitectura colonial española. El centro histórico de Morelia es Patrimonio de la Humanidad por la UNESCO.</p>
+        </div>
+        <div class="lugar">
+            <img src="./img/calavera.svg" />
+            <h3>Pátzcuaro</h3>
+            <p>Un pintoresco pueblo colonial ubicado junto al Lago de Pátzcuaro.</p>
+        </div>
+        <div class="lugar">
+            <img src="./img/Cascada.svg" />
+            <h3>Uruapan</h3>
+            <p>Conocido como «La Capital Mundial del Aguacate», Uruapan cuenta con hermosos paisajes naturales, cascadas, parques nacionales y la famosa Barranca del Cupatitzio.</p>
+        </div>
+        <div class="lugar">
+            <img src="./img/image.svg" />
+            <h3>Janitzio</h3>
+            <p> Una isla en el Lago de Pátzcuaro que es famosa por su celebración del Día de los Muertos. .</p>
+        </div>
+        <div class="lugar">
+            <img src="./img/mariposa.svg" />
+            <h3>Parque Nacional de la Mariposa Monarca</h3>
+            <p>Este parque es un sitio de invernada para millones de mariposas monarca que migran desde Canadá y los Estados Unidos.</p>
+        </div>
+    </main>
+
+    <!-- En esta sección se muestra la otra mitad del contenido princial -->
+
+    <section class="portafolios contenedor">
+        <h2>DESTINOS TURÍSTICOS</h2>
+
+        <!-- La clase portafolio indica que se muestra individualmente los cuadros de esta sección -->
+
+        <div class="portafolio">
+            <img src="./img/morelia.jpg" />
+            <div class="portafolio-1">
+                <h3>Morelia</h3>
+                <p>Morelia, la capital del estado de Michoacán, es una ciudad colonial con un encanto histórico inigualable. Su centro histórico, declarado Patrimonio de la Humanidad por la UNESCO, cuenta con impresionantes edificios de cantera rosa, como la majestuosa Catedral de Morelia y el Acueducto. Pasear por sus calles adoquinadas, disfrutar de su gastronomía tradicional y vivir sus festivales culturales son experiencias imperdibles.</p>
+                <a href="" class="btn-2">Información</a>
+            </div>
+        </div>
+        <div class="portafolio">
+            <div class="portafolio-2">
+                <h3>Pátzcuaro</h3>
+                <p>Pátzcuaro es un pintoresco pueblo situado a orillas del lago que lleva su mismo nombre. Famoso por su arquitectura colonial y sus tradiciones purépechas, es especialmente conocido por las celebraciones del Día de Muertos. Sus calles empedradas, plazas llenas de vida y mercados artesanales ofrecen un vistazo a la rica herencia cultural de Michoacán. No te pierdas la Basílica de Nuestra Señora de la Salud y la Casa de los Once Patios</p>
+                <a href="" class="btn-2">Información</a>
+            </div>
+            <img src="./img/pat.webp" />
+        </div>
+        <div class="portafolio">
+            <img src="./img/uruapan.jpeg" />
+            <div class="portafolio-1">
+                <h3>Uruapan</h3>
+                <p>Uruapan es conocida como la "Capital Mundial del Aguacate" y es una ciudad llena de naturaleza y cultura. El Parque Nacional Barranca del Cupatitzio, también conocido como Parque Nacional Eduardo Ruiz, es un oasis natural con ríos, cascadas y senderos frondosos. Además, la ciudad ofrece una vibrante escena artesanal y gastronómica, donde puedes probar las delicias locales y comprar productos hechos a mano.</p>
+                <a href="" class="btn-2">Información</a>
+            </div>
+        </div>
+        <div class="portafolio">
+            <div class="portafolio-2">
+                <h3>Janitzio</h3>
+                <p>Janitzio es la isla más famosa del lago de Pátzcuaro y un destino turístico emblemático. Conocida por sus pescadores que utilizan redes de mariposa, la isla es también un importante centro de celebración del Día de Muertos, donde las tradiciones purépechas se viven con gran fervor. En la cima de la isla se encuentra la estatua monumental de José María Morelos, desde donde se pueden obtener vistas panorámicas espectaculares.</p>
+                <a href="" class="btn-2">Información</a>
+            </div>
+            <img src="./img/diam.jpeg" />
+        </div>
+        <div class="portafolio">
+            <img src="./img/parquem.jpeg" />
+            <div class="portafolio-1">
+                <h3>Parque Nacional de la Mariposa Monarca</h3>
+                <p>El Parque Nacional de la Mariposa Monarca, ubicado en la Reserva de la Biosfera de la Mariposa Monarca, es un santuario natural donde millones de mariposas monarca migran cada año desde Canadá y Estados Unidos para pasar el invierno. Este fenómeno natural es un espectáculo visual impresionante, con las mariposas cubriendo los árboles y creando un ambiente mágico. Visitar el parque entre noviembre y marzo es una experiencia única para los amantes de la naturaleza.</p>
+                <a href="" class="btn-2">Información</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- En esta sección se muestra el footer de la pagina -->
+
+    <footer>
+        <div class="contenedor">
+            <div class="enlaces">
+                <a href="index.html"><img src="./img/logo.png" class="logo" /></a>
+                <div class="enlace">
+                    <li><a href="Historia.html">Historia</a></li>
+                    <li><a href="Turistico.html">Lugares Turisticos</a></li>
+                    <li><a href="Platillos.html">Platillos Tipicos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Registro.php">Registro</a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
